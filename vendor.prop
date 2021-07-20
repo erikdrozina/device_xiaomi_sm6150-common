@@ -99,7 +99,6 @@ persist.vendor.camera.perflock.enable=0
 # Data modules
 persist.vendor.data.iwlan.enable=true
 persist.vendor.data.mode=concurrent
-ro.telephony.iwlan_operation_mode=legacy
 
 # Dex2oat
 pm.dexopt.boot=verify
