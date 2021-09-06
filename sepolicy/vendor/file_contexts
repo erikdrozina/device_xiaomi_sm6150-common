@@ -16,6 +16,9 @@
 /sys/devices/platform/soc/soc:qcom,dsi-display/hbm                   u:object_r:sysfs_display:s0
 /sys/devices/platform/soc/soc:qcom,dsi-display/msm_fb_ea_enable      u:object_r:sysfs_display:s0
 
+# Files in rootfs
+/avb(/.*)?                                                           u:object_r:avb_file:s0
+
 # Fingerprint
 /dev/goodix_fp                                                       u:object_r:fingerprint_device:s0
 /data/vendor/fpc(/.*)?                                               u:object_r:fingerprint_data_file:s0

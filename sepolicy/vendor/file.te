@@ -1,5 +1,8 @@
 # Adsprpcd
 type public_adsprpcd_file, file_type;
 
+# Avb
+type avb_file, file_type;
+
 # Data files
 type per_boot_file, file_type, data_file_type, core_data_file_type;
