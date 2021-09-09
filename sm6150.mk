@@ -41,6 +41,10 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth.audio@2.0-impl \
     android.hardware.soundtrigger@2.2-impl
 
+# ATRACE_HAL
+PRODUCT_PACKAGES += \
+    android.hardware.atrace@1.0-service
+
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
     audio.bluetooth.default \
@@ -90,9 +94,10 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64 \
-    libdng_sdk.vendor
+    libc++demangle_vendor \
+    libdng_sdk.vendor \
+    libgui_vendor \
+    libxml2
 
 PRODUCT_PACKAGES += \
     Snap
@@ -209,8 +214,10 @@ PRODUCT_PACKAGES += \
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail.vendor \
+    libc2dcolorconvert \
     libcodec2_vndk.vendor \
     libcodec2_hidl@1.0.vendor \
+    libmm-omxcore \
     libOmxAacEnc \
     libOmxAmrEnc \
     libOmxCore \
@@ -271,6 +278,10 @@ PRODUCT_PACKAGES += \
     librilutils \
     librmnetctl
 
+PRODUCT_PACKAGES += \
+    libprotobuf-cpp-lite-vendorcompat \
+    libprotobuf-cpp-full-vendorcompat \
+
 # Recovery
 PRODUCT_PACKAGES += \
     librecovery_updater_xiaomi
@@ -317,6 +328,9 @@ PRODUCT_COPY_FILES += \
 # Touchscreen
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
+
+PRODUCT_PACKAGES += \
+    libtinyxml2
 
 # Trust HAL
 PRODUCT_PACKAGES += \
