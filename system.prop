@@ -16,6 +16,9 @@ persist.vendor.cne.feature=1
 # IORap I/O Prefetching
 persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
