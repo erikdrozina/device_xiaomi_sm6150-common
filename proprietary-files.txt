@@ -63,6 +63,8 @@ system_ext/framework/audiosphere.jar|98d17293550d99e59d1edd8582ed4551dc167249
 # Audio FX modules (vendor)
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libshoebox.so
+vendor/lib/soundfx/libdirac.so
+vendor/lib/soundfx/libmisoundfx.so
 
 # Bluetooth - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|af37592fc9b0b4e83449458a0fff1738135c9087
