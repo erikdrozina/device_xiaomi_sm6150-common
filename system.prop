@@ -13,6 +13,9 @@ persist.vendor.cne.feature=1
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
+# IORap I/O Prefetching
+persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
+
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.enable-aac=true
