@@ -1,4 +1,4 @@
-# Common proprietary files - from tucana MIUI V12.5.5.0.RFDMIXM package, unless pinned
+# Common proprietary files - from tucana MIUI V12.5.9.0.RFDCNXM package, unless pinned
 
 # ADSP - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
@@ -209,10 +209,12 @@ vendor/lib64/libqisl.so|c79719eebc094c2af9561e8df2c158638b111b70
 vendor/lib64/librpmb.so|9ddc3b22dbde8b60aaf531601ac452e945d95a14
 vendor/lib64/libssd.so|0a461a98eb314fe6e79bfe08457a88e48c52550a
 
+# DRM - from tucana MIUI V12.5.5.0.RFDMIXM
+vendor/lib64/liboemcrypto.so|6b8c5ab8cb16b7f42071ddc59ac868fa684cff4e
+
 # DRM
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/libminksocket.so
-vendor/lib64/liboemcrypto.so
 vendor/lib64/libtrustedapploader.so
 
 # DRM - from LA.UM.9.1.r1-10900-SMxxx0.0
