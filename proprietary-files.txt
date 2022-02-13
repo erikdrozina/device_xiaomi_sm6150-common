@@ -1,5 +1,10 @@
 # Common proprietary files - from tucana MIUI V12.5.9.0.RFDCNXM package, unless pinned
 
+# ACDB loader
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+
 # ADSP - from LA.UM.9.1.r1-10900-SMxxx0.0
 vendor/bin/adsprpcd|5e246a6f5d2dca27e29b233a17e4673532191b95
 vendor/bin/cdsprpcd|ea126ed2f1b11622547239f331b8013320c59ad2
