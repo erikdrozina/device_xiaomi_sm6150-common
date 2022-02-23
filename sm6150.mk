@@ -407,8 +407,8 @@ PRODUCT_PACKAGES += \
     libqdMetaData.vendor \
     libwfdaac_vendor
 
-#PRODUCT_BOOT_JARS += \
-#    WfdCommon
+# WfdCommon
+-include vendor/xiaomi/sm6150-common-extra/wfd.mk
 
 # ZRAM writeback
 PRODUCT_PROPERTY_OVERRIDES += \
