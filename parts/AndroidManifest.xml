@@ -57,6 +57,7 @@
             android:name=".display.DcDimmingTileService"
             android:icon="@drawable/ic_dc_tile"
             android:label="@string/dc_dimming_enable_title"
+            android:exported="true"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
@@ -68,6 +69,7 @@
             android:name=".display.HBMTileService"
             android:icon="@drawable/ic_hbm_tile"
             android:label="@string/hbm_mode_title"
+            android:exported="true"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action
@@ -103,6 +105,7 @@
         <activity
             android:name=".display.DisplaySettingsActivity"
             android:label="@string/display_settings_title"
+            android:exported="false"
             android:theme="@style/Theme.SubSettingsBase">
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
