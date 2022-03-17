@@ -359,4 +359,19 @@
          2: gestures only for back, home and overview -->
     <integer name="config_navBarInteractionMode">2</integer>
 
+     <!-- List of system apps that are allowed to be locked with app lock.
+          Use with extreme caution. -->
+    <string-array name="config_appLockAllowedSystemApps" translatable="false">
+        <item>app.google.android.app.cameralite</item>
+        <item>com.android.documentsui</item>
+        <item>com.google.android.apps.nbu.files</item>
+        <item>com.android.vending</item>
+        <item>com.google.android.apps.photos</item>
+        <item>com.android.chrome</item>
+        <item>com.google.android.apps.recorder</item>
+        <item>com.google.android.apps.docs</item>
+        <item>com.android.messaging</item>
+        <item>com.google.android.youtube</item>
+        <item>com.google.android.gm</item>
+    </string-array>
 </resources>
