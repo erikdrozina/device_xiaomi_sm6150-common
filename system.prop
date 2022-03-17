@@ -16,6 +16,9 @@ ro.charger.enable_suspend=true
 # CNE
 persist.vendor.cne.feature=1
 
+# Columbus
+persist.columbus.use_ap_sensor=false
+
 # IORap I/O Prefetching
 persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
 
