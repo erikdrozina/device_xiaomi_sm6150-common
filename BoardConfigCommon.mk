@@ -21,6 +21,9 @@ COMMON_PATH := device/xiaomi/sm6150-common
 # Inherit from proprietary files
 include vendor/xiaomi/sm6150-common/BoardConfigVendor.mk
 
+# MiuiCamera
+include vendor/xiaomi/miuicamera/BoardConfigAnx.mk
+
 # Architecture
 TARGET_ARCH := arm64
 TARGET_ARCH_VARIANT := armv8-2a-dotprod
