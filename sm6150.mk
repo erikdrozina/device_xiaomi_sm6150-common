@@ -284,10 +284,6 @@ PRODUCT_PACKAGES += \
     android.hardware.power.stats@1.0-service.mock \
     android.hardware.power-service.xiaomi-libperfmgr
 
-# Prebuilt Packages
-PRODUCT_PACKAGES += \
-    GCamGo
-
 # QTI
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect.vendor \
