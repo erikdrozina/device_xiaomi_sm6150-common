@@ -207,7 +207,7 @@ vendor/lib64/libGPreqcancel.so|b9efbc8623981e1249ad0a0f8964b2b655d2b334
 vendor/lib64/libGPreqcancel_svc.so|507859447820246b21175096753a7e3fb13727ab
 vendor/lib64/libQSEEComAPI.so|34b9e5b28e7f141c40fdb392aba9af60aa98d5b5
 vendor/lib64/libStDrvInt.so|c6866bfa63fa8ea4ac7ce8f3ea7daeabba90ae03
-vendor/lib64/libcpion.so|04577591c6e772730453da2c9ba4b94a5edd9b1a
+vendor/lib64/libcpion.so|103e6756e87912b34d910d424f2658580fea025c
 vendor/lib64/libdrmfs.so|a21f9505fac81e4f0a307d7f7a51efab61d9d0cb
 vendor/lib64/libdrmtime.so|6b51dbccd8d1bfa0c5aa72948f3a6cd079eee426
 vendor/lib64/libminkdescriptor.so|3fb52e7d3c9c213df62881a7068baab82cbbd78e
@@ -429,10 +429,10 @@ vendor/lib/libOmxVpp.so|e4728f604f69a9fc4c07d12cf666839c77ec6555
 vendor/lib/libOmxWmaDec.so|9e30df0b706ef4420b0ac6052f98bec8e41ea412
 vendor/lib/libdsd2pcm.so|c5ab1afd7a5a23bf83d80b5ac74247c3dd2085af
 vendor/lib/libmmosal.so|37febc914b2c706a5df0009cc134e9d80690aec0
-vendor/lib/libqcodec2.so|01b1f94e7d17c5616635141ff7bc5e3f304b48f0
+vendor/lib/libqcodec2.so|3b4b80521b67112fcf0c1e41ef242aad8d8db733
 vendor/lib/libswvdec.so|470a275b120633d7a0d756a7d30a817b25d2e54e
 vendor/lib/libvppclient.so|cb2038656aadc542198b0932f13ebdb9c37e35a5
-vendor/lib/libvpphvx.so|e5b3bfc86080fb20efd5ad3b47417566eab8319d
+vendor/lib/libvpphvx.so|131e722a668f22c4edd673a0c20fad1cc8a1d18c
 vendor/lib/libvpplibrary.so|612c490abe2ade3caa0594756e1ed0cdfa07874b
 vendor/lib/vendor.qti.hardware.vpp@1.1.so|e84787e0b689d10a30c4ec3ded8858f0b622323d
 vendor/lib/vendor.qti.hardware.vpp@1.2.so|fc3b81e25f5af4292d032138c46e31b98a7b622a
@@ -472,7 +472,7 @@ vendor/bin/qrtr-ns|2b84b77bcd50e8c65c2151457f885eb434af4585
 vendor/lib/libdiag.so|65e7607778bc164619a353f11f64957b60fdc22c
 vendor/lib/libdsutils.so|6a1bc9529fa8b53488e73fe3a191b40056261a35
 vendor/lib/libidl.so|f91eebf917150514da6c111de6c66805bed3f6c8
-vendor/lib/libmdmdetect.so|0105abde3eead7e5292d1c0823327f0969751e88
+vendor/lib/libmdmdetect.so|a5ab7859d8a122ae6512d20f81c58bbe2dc98560
 vendor/lib/libqmi.so|b77fbaa6c2f9385c680f21d286e973d3b5174f70
 vendor/lib/libqmi_cci.so|9b58cbf1061250e917534ff94105c8d8c8d467df
 vendor/lib/libqmi_client_helper.so|1fbb98bb3c1d8dbe6675ce21c1b4ff75e6b9c12a
@@ -513,7 +513,7 @@ vendor/bin/tftp_server|d3c9f04e306222a13d51dc3ee089688cc6a3c929
 vendor/etc/data/dsi_config.xml|27a9616809d2e2355640d5e7cdb7268eba9f6a0d
 vendor/etc/data/netmgr_config.xml|b87b057d87139c7ac866dc5f75c498de1e8ab361
 vendor/etc/init/dataadpl.rc|cd4907d9bfd438fe5f5c86f5d6cec590ac0bac2a
-vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad
+vendor/etc/init/dataqti.rc|6abfd1a850d782adbbb6f42c9d8ca870036b2ad1
 vendor/etc/init/netmgrd.rc|5c592bd2cf775462e147d3def97e99abbac4631e
 vendor/etc/init/qcrild.rc|63f82cc56f184e598643ce827fdcc1b09773858c
 vendor/etc/init/vendor.qti.rmt_storage.rc|bc212c6353c2ded44ae4d759605fbbe55aa4fa3f
