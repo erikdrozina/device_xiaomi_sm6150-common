@@ -334,7 +334,7 @@ system_ext/lib64/vendor.qti.diaghal@1.0.so|8b6f1bb87b0780825e46e3d00680ffc0da0b5
 system_ext/lib64/vendor.qti.imsrtpservice@3.0.so|cfb8cc03e6aa405694b47bc9cb1d41b7bd545ceb
 -system_ext/priv-app/ims/ims.apk|0fd42e657e272d6ea2b2c21b451d4a49c94287ea
 
-# IMS (vendor) - from sweet MIUI V13.0.2.0.SKFMIXM
+# IMS (vendor) - from sweet MIUI V13.0.7.0.SKFMIXM
 vendor/bin/ims_rtp_daemon|c5c4ead4ef77b0b8e34f27015c3ee10381bb6996
 vendor/bin/imsdatadaemon|512ed8dca5773735fb0ae782b579bb3d7519db40
 vendor/bin/imsqmidaemon|bd169127f1ce80ddccfc90710be975db85c3a06e
@@ -465,14 +465,14 @@ vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
 # QMI (system) - from LA.QSSI.12.0.r1-07100-qssi.0
 system_ext/etc/permissions/qti_permissions.xml|e6ff4572352b1a4f91b6b9d7cbb1cad9924410a0
 
-# QMI (vendor) - from sweet MIUI V13.0.2.0.SKFMIXM
+# QMI (vendor) - from sweet MIUI V13.0.7.0.SKFMIXM
 vendor/bin/irsc_util|121deb2d6fd21b122c6a8ca8b30ef167f6b90f61
 vendor/bin/pd-mapper|f42d79a48e3e0e4bba47e9ccca60d65a6c8f5716
 vendor/bin/qrtr-ns|2b84b77bcd50e8c65c2151457f885eb434af4585
 vendor/lib/libdiag.so|65e7607778bc164619a353f11f64957b60fdc22c
 vendor/lib/libdsutils.so|6a1bc9529fa8b53488e73fe3a191b40056261a35
 vendor/lib/libidl.so|f91eebf917150514da6c111de6c66805bed3f6c8
-vendor/lib/libmdmdetect.so|a5ab7859d8a122ae6512d20f81c58bbe2dc98560
+vendor/lib/libmdmdetect.so|0105abde3eead7e5292d1c0823327f0969751e88
 vendor/lib/libqmi.so|b77fbaa6c2f9385c680f21d286e973d3b5174f70
 vendor/lib/libqmi_cci.so|9b58cbf1061250e917534ff94105c8d8c8d467df
 vendor/lib/libqmi_client_helper.so|1fbb98bb3c1d8dbe6675ce21c1b4ff75e6b9c12a
@@ -503,7 +503,7 @@ system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625
 system_ext/framework/qcrilhook.jar|da67e8893aadf3e8b1c9cb1ca82a469c6062575b
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|0acedaf8b03bf0f7ba45b76d6e563795498f92fd
 
-# RIL (vendor) - from sweet MIUI V13.0.2.0.SKFMIXM
+# RIL (vendor) - from sweet MIUI V13.0.7.0.SKFMIXM
 vendor/bin/hw/qcrild|77d0168fbad7db01eec8abd9df25f19c05411eb4
 vendor/bin/adpl|befdf77dcac250dcc476b3fb270d5f4fc82ad041
 vendor/bin/netmgrd|00d1d6a2aef0025187c2edae6d7d9ef7b2d830e2
@@ -532,7 +532,7 @@ vendor/lib64/libqcrilFramework.so|dc62bd4f3685c420d43f4f5f4141d5908212df86
 vendor/lib64/libqcrildatactl.so|6b8f581a702bf25799232c3a5def95c5b6d6e8fd
 vendor/lib64/libqdi.so|c629b93e4fb1ffd6af711229fbf0959c40ee9f4e
 vendor/lib64/libqdp.so|b3f268e6a6bafddbeae0e0af93fe1175e513cb91
-vendor/lib64/libril-qc-hal-qmi.so|43af4132cb0ebd1bed3d718d62c1f85f588d1d28
+vendor/lib64/libril-qc-hal-qmi.so|4fcf41cd283932f3719ff5a337ef338be8e86cea
 vendor/lib64/libril-qc-logger.so|424da55c374153c34283562da0339d47b6e631f8
 vendor/lib64/librilqmiservices.so|9830f7ffec26e1c056e966c73d410ad8010cce1e
 vendor/lib64/libsystem_health_mon.so|2cc55d78ea00b9fe8af9cd88fd8ef8c31ee5f494
