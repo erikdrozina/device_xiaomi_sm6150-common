@@ -140,9 +140,9 @@ vendor.gralloc.disable_ubwc=0
 vendor.display.qdcm.mode_combine=1
 
 # Display - Set color mode to Natural by default
-persist.sys.sf.color_saturation=1.0
+persist.sys.sf.color_saturation=1.1
 persist.sys.sf.native_mode=0
-persist.sys.sf.color_mode=9
+persist.sys.sf.color_mode=0
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
