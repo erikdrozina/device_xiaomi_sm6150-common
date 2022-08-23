@@ -1,1 +1,4 @@
 allow system_server app_zygote:process getpgid;
+
+# Allow system server to read charging values
+allow system_server sysfs:file { open read getattr };
