@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+SELINUX_IGNORE_NEVERALLOWS := true
+
 BOARD_VENDOR := xiaomi
 
 COMMON_PATH := device/xiaomi/sm6150-common
